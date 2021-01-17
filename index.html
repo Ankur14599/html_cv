@@ -1,132 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <title>Ankur Prashar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <meta charset="UTF-8">
-    <title>Ankur's Personal Website</title>
-    <style>
-        img{
-            border-radius: 100%;
-        }
-    </style>
+    <!-- Font embedding into website -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Nanum+Gothic&family=Sacramento&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <table cellspacing="20px">
-        <tr>
-            <td>
-                <img src="Ankur_Profile.jpg" alt = "Ankur Profile Picture">
-            </td>
-            <td>
-                <h1>Ankur Prashar</h1>
-                <p><em>Passionate <strong>Software Developer</strong></em></p>
-                <br>
-                <p>My name is <strong>Ankur</strong> and I love to <strong>code</strong> and learn new tech.
-                I have always been a very curious person</p>
-            </td>
-        </tr>
-    </table>
-    
-    
-    <hr size="3">
-    <h3>Education and Certifications</h3>
-    <ul>
-        <li>Sacred Heart Convent Sr. Sec. School, YNR.</li>
-        <li>Maharishi Markandeshwar Deemed to be University, Mullana</li>
-    </ul>
-    <hr size="3">
-    <h1>Hobbies</h1>
-    <a href="hobbies.html">My Hobbies</a>
-    <hr size="3">
-    <h1>Contact me</h1>
-    <a href="contact.html">Contact details</a>
-    <hr size="3">
-    <h1>Work Experience</h1>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>
-                    Year
-                </th>
-                <th>
-                    Position
-                </th>
-    
-            </tr>
-        </thead>
-        <tbody>
-            
-        <tr>
-            <td>
-                2015
-            </td>
-            <td>
-                Class X
-            </td>
-        </tr>
-        <tr>
-            <td>
-                2017
-            </td>
-            <td>
-                Class XII
-            </td>
-        </tr>
-        <tr>
-            <td>
-                2021
-            </td>
-            <td>
-                Got a job and Graduation done !
-            </td>
-        </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
+  <!-- Area for the top container -->
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+        <h1>Ankur Prashar</h1>
+        <h2 class="head-two">I'm a programmer</h2>
+        <img class ="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+        <img src="images/mountain1.png" alt="mountain-image">
         
+    </div>
+    <!-- Area for middle container having basic information -->
+    <div class="middle-container">
+        <div class="profile">
+          <img class = "profile-pic" src="images/Ankur_Profile.jpg" alt="Profile-Picture">
+          <h2>About Me</h2>
+          <p class="intro">Hi there ! My name is Ankur Prashar. I ❤ to code and I am a Python Developer and learning Web Development </p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="coder-img" src="images/programmer.png" alt="skills">
+            <h3>Python</h3>
+            <p>I am a Python Developer having good experience of Data Science and Frameworks like Django.</p>
+          </div>
+          <div class="skill-row">
+            <img class="code-img" src="images/programming.png" alt="skill2">
+            <h3>Web Development and Design</h3>
+            <p>I am learning various aspects on Web Development and trying to get better in it with each passing day.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>I am open to new jobs and freelancing work</h3>
+          <p class="contact-message">To get in touch, you can check out the various links and we can discuss over a cup of coffee :)</p>
+          <a class="btn" href="mailto:ankur.prashar0286@gmail.com">Mail me here</a>
+        </div>
+      </div>
+      
+      <!-- Area for the basic links  -->
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/ankurprashar">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/AnkurPrashar14/">Twitter</a>
+        <a class="footer-link" href="https://github.com/Ankur14599">Github</a>
+        <p class="copyright">Crafted with ❤ by Ankur Prashar</p>
+      </div>
+      
+
     
-    </table>
-    <hr size="3">
-    <h1>My Skills</h1>
-    <table >
-        
-        <tbody>
-            <tr>
-                <td>
-                    Python
-                </td>
-                <td>
-                    ⭐⭐⭐⭐⭐
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Java
-                </td>
-                <td>
-                    ⭐⭐⭐⭐
-                </td>
-
-            </tr>
-            <tr>
-                <td>
-                    HTML
-                </td>
-                <td>
-                    ⭐⭐⭐⭐
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    CSS
-                </td>
-                <td>
-                    ⭐⭐
-                </td>
-            </tr>
-        </tbody>
-
-    </table>
+    
 </body>
 </html>
